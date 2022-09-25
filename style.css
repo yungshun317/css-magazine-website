@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Sections */
 body {
     font-family: sans-serif;
     color: #444;
@@ -42,6 +43,7 @@ aside {
     width: 500px;
 }
 
+/* Fonts */
 h1, h2, h3 {
     color: #1098ad;
 }
@@ -74,3 +76,37 @@ p {
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
+ul, ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+#author {
+    font-style: italic;
+    font-size: 16px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+
+/* Links */
