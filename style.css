@@ -77,6 +77,43 @@ p {
     margin-bottom: 15px;
 }
 
+h1::first-letter {
+    font-style: normal;
+    margin-right: 6px;
+}
+
+h2 {
+    position: relative;
+}
+
+h2::before {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 6px 12px;
+    position: absolute;
+    top: -12px;
+    right: -24px;
+}
+
+.author {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+/* Lists */
 ul, ol {
     margin-left: 50px;
     margin-bottom: 20px;
@@ -89,20 +126,6 @@ li {
 
 li:last-child {
     margin-bottom: 0;
-}
-
-#author {
-    font-style: italic;
-    font-size: 16px;
-}
-
-#copyright {
-    font-size: 16px;
-}
-
-.related-author {
-    font-size: 16px;
-    font-weight: bold;
 }
 
 .related {
@@ -149,6 +172,7 @@ button {
     right: 50px;
 }
 
+/* Images */
 .post-img {
     width: 100%;
     height: auto;
