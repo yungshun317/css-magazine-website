@@ -173,6 +173,10 @@ button {
 }
 
 /* Images */
+img {
+    object-fit: cover;
+}
+
 .post-img {
     width: 100%;
     height: auto;
