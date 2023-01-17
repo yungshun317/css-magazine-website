@@ -216,20 +216,20 @@ footer {
 }
 
 .related-post {
-    display: table;
+    /* display: table; */
     /* clear: both;
     height: 100px;  */
 }
 
 .related-img {
-    display: inline-table;
+    display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
     /* float: left; */
 }
 
 .related-text-box {
-    display: inline-table;
+    display: inline-block;
     vertical-align: middle;
     /* float: right; */
     width: 115px;
