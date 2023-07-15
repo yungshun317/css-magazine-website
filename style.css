@@ -251,6 +251,13 @@ footer {
 
 .related-post {
     display: table;
+    /*
+    display: inline-table;
+    display: table-row-group;
+    display: table-row;
+    display: table-header-group;
+    display: table-footer-group;
+     */
     height: 100px;
 }
 
@@ -278,5 +285,35 @@ footer {
     margin-bottom: 0;
 }
 
-/* [3] Inline Block */
+/* [3] Inline Block
 
+.related-post {
+}
+
+.related-img-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.related-img {
+    margin-right: 20px;
+}
+
+.related-text-box {
+    display: inline-block;
+    vertical-align: middle;
+    // Must smaller than the remaining space
+    width: 115px;
+}
+
+.related-link {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.related-author {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+*/
