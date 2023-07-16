@@ -247,17 +247,16 @@ footer {
 
 */
 
-/* [2] Table */
+/* [2] Table
 
 .related-post {
     display: table;
-    /*
-    display: inline-table;
-    display: table-row-group;
-    display: table-row;
-    display: table-header-group;
-    display: table-footer-group;
-     */
+    // display: inline-table;
+    // display: table-row-group;
+    // display: table-row;
+    // display: table-header-group;
+    // In reverse order
+    // display: table-footer-group;
     height: 100px;
 }
 
@@ -285,9 +284,12 @@ footer {
     margin-bottom: 0;
 }
 
-/* [3] Inline Block
+ */
+
+/* [3] Inline Block */
 
 .related-post {
+    /* Empty */
 }
 
 .related-img-box {
@@ -315,5 +317,3 @@ footer {
     font-style: italic;
     margin-bottom: 0;
 }
-
-*/
