@@ -220,6 +220,8 @@ footer {
 
 .related-post {
     clear: both;
+
+    // Set a larger height
     height: 100px;
 }
 
@@ -257,7 +259,6 @@ footer {
     // display: table-header-group;
     // In reverse order
     // display: table-footer-group;
-    height: 100px;
 }
 
 .related-img-box {
@@ -267,6 +268,7 @@ footer {
 
 .related-img {
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .related-text-box {
@@ -284,7 +286,7 @@ footer {
     margin-bottom: 0;
 }
 
- */
+*/
 
 /* [3] Inline Block */
 
@@ -293,18 +295,22 @@ footer {
 }
 
 .related-img-box {
+    /* Vertically align itself */
     display: inline-block;
     vertical-align: middle;
 }
 
 .related-img {
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .related-text-box {
+    /* Vertically align itself */
     display: inline-block;
     vertical-align: middle;
-    // Must smaller than the remaining space
+
+    /* Must smaller than the remaining space */
     width: 115px;
 }
 
