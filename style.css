@@ -169,6 +169,7 @@ button {
 /* Images */
 img {
     object-fit: cover;
+    object-position: center;
 }
 
 .post-img {
@@ -288,14 +289,13 @@ footer {
 
 */
 
-/* [3] Inline Block */
+/* [3] Inline Block
 
 .related-post {
-    /* Empty */
+    // Empty
 }
 
 .related-img-box {
-    /* Vertically align itself */
     display: inline-block;
     vertical-align: middle;
 }
@@ -306,9 +306,42 @@ footer {
 }
 
 .related-text-box {
-    /* Vertically align itself */
     display: inline-block;
     vertical-align: middle;
+
+    // Must smaller than the remaining space
+    width: 115px;
+}
+
+.related-link {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.related-author {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+*/
+
+/* [4] Inline Block with only one `vertical-align` */
+
+.related-post {
+    /* Empty */
+}
+
+.related-img-box {
+    display: inline-block;
+}
+
+.related-img {
+    margin-right: 20px;
+    vertical-align: text-bottom;
+}
+
+.related-text-box {
+    display: inline-block;
 
     /* Must smaller than the remaining space */
     width: 115px;
