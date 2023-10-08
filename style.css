@@ -217,7 +217,7 @@ footer {
     clear: both;
 }
 
-/* [1] Float
+/* [1] Floats
 
 .related-post {
     clear: both;
@@ -250,7 +250,7 @@ footer {
 
 */
 
-/* [2] Table
+/* [2] Tables
 
 .related-post {
     display: table;
@@ -289,43 +289,7 @@ footer {
 
 */
 
-/* [3] Inline Block
-
-.related-post {
-    // Empty
-}
-
-.related-img-box {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.related-img {
-    margin-right: 20px;
-    vertical-align: middle;
-}
-
-.related-text-box {
-    display: inline-block;
-    vertical-align: middle;
-
-    // Must smaller than the remaining space
-    width: 115px;
-}
-
-.related-link {
-    font-weight: bold;
-    line-height: 1.2;
-}
-
-.related-author {
-    font-style: italic;
-    margin-bottom: 0;
-}
-
-*/
-
-/* [4] Inline Block with only one `vertical-align` */
+/* [3] Inline blocks */
 
 .related-post {
     /* Empty */
@@ -333,15 +297,17 @@ footer {
 
 .related-img-box {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .related-img {
     margin-right: 20px;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 
 .related-text-box {
     display: inline-block;
+    vertical-align: middle;
 
     /* Must smaller than the remaining space */
     width: 115px;
