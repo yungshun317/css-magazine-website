@@ -217,7 +217,7 @@ footer {
     clear: both;
 }
 
-/* [1] Floats
+/* [1] Float
 
 .related-post {
     clear: both;
@@ -250,7 +250,7 @@ footer {
 
 */
 
-/* [2] Tables
+/* [2] Table
 
 .related-post {
     display: table;
@@ -289,7 +289,7 @@ footer {
 
 */
 
-/* [3] Inline blocks */
+/* [3] Inline block */
 
 .related-post {
     /* Empty */
@@ -311,6 +311,7 @@ footer {
 
     /* Must smaller than the remaining space */
     width: 115px;
+    margin-left: -4.5px;
 }
 
 .related-link {
